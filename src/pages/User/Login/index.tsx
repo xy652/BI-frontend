@@ -85,8 +85,8 @@ const Login: React.FC = () => {
             maxWidth: '75vw',
           }}
           logo={<img alt="logo" src="/logo.svg" />}
-          title="Ant Design"
-          subTitle={'Ant Design 是西湖区最具影响力的 Web 设计规范'}
+          title="智能BI"
+          subTitle={'基于 AIGC 的智能BI数据分析平台'}
           onFinish={async (values) => {
             await handleSubmit(values as API.UserLoginRequest);
           }}
